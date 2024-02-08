@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
+
+:root {
+    --black: #000;
+    --white: #ffffff;
+    --police: #fff;
+    --background: #202020;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-weight: normal;
+    background-color: var(--background);
+    font-family: 'Trispace', sans-serif;
+}
+li, ul, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link {
+    color: var(--police);
+    padding: 1em 2em;
+}
+.nav-link:hover {
+    color: rgb(77, 185, 171);
+}
+.nav-link:active {
+    color: rgb(11, 198, 227);
+}
+
+.punchline {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.punchline>h1 {
+    color: black;
+    font-size: 5em;
+}
+
+.section_collaborators {
+    display: flex;
+    flex-direction: column;
+}
+.collaborators {
+    gap: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: start;
+    justify-content: center;
+}
+.card {
+    color: white;
+    border: none;
+    background-color: #202020;
+}
+.card-body {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.47);
+}
+#image-charles, #image-jerem, #image-thomas, #image-oscar  {
+    height: 265px;
+    width: auto;
+}
+
+.background_video {
+    z-index: 1;
+    width: 100%;
+    margin: 10rem 0 0 0;
+}
+.install {
+    z-index: 10;
+    height: 40vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_download {
+    padding: .5em 2em;
+    color: var(--black);
+    background-color: rgb(77, 185, 171);
+}
+.button_download:hover {
+
+}
+.text_download {
+    color: #202020;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: 'Trispace', sans-serif;
+}
+
+
+.section_footer {
+    color: white;
+    margin: 5em;
+    padding: 5em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo_digital_event {
+    height: 100px;
+    width: auto;
+}
